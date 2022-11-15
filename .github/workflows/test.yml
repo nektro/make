@@ -62,3 +62,6 @@ jobs:
           echo '--------------------------------------'
           find out/ -type f
           echo '--------------------------------------'
+
+      - run: ${{ matrix.project }}/out/usr/local/bin/${{ matrix.project }} --version
+      - run: ${{ matrix.project }}/out/usr/local/bin/${{ matrix.project }} --help
