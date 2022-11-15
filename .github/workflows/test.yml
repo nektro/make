@@ -50,6 +50,9 @@ jobs:
       - run: sudo apt install -y gperf
       - run: sudo apt install -y help2man
 
+      # Use our implementation
+      - run: echo "PATH=$GITHUB_WORKSPACE/zig-out/bin:$PATH" >> $GITHUB_ENV
+
       # Actual GNU project to test building
       - run: git clone https://git.savannah.gnu.org/git/${{ matrix.project }}.git
       - run: |
