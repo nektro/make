@@ -13,7 +13,6 @@ jobs:
       matrix:
         project:
           - autoconf
-          - autogen
           - automake
           - bash
           - binutils
@@ -24,18 +23,15 @@ jobs:
           - gawk
           - gcc
           - gdb
-          - gettext
           - gimp
           - gzip
           - hello
           - make
-          - mes
           - parallel
           - sed
           - tar
           - time
           - wget
-          - which
 
     steps:
       # debug info about this machine
