@@ -66,4 +66,6 @@ jobs:
           chmod +x ./bootstrap && ./bootstrap
           ./configure
           make install DESTDIR=out
-          ls out
+          echo '--------------------------------------'
+          find out/ -type f
+          echo '--------------------------------------'
