@@ -1,0 +1,5 @@
+id: 235pr54y7fgnzruhhnf5yf0xp3a98r9bdymwqgwmgaja1t3e
+name: make
+license: GPL-2.0
+description: A tool which controls the generation of executables and other non-source files of a program from the program's source files.
+root_dependencies:
