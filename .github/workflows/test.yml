@@ -25,7 +25,6 @@ jobs:
           - parallel
           - sed
           - tar
-          - time
           - wget
 
     steps:
