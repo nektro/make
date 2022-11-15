@@ -110,7 +110,9 @@ jobs:
       - run: zig build
 
       # Actual GNU project to test building
-      - run: git clone https://git.savannah.gnu.org/git/{{ matrix.project }}.git
+      - run: |
+          PROJECT={{ matrix.project }}
+          git clone https://git.savannah.gnu.org/git/${PROJECT}.git
       - run: |
           cd {{ matrix.project }}
           mkdir out
