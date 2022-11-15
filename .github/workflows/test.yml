@@ -12,69 +12,69 @@ jobs:
     strategy:
       matrix:
         project:
-          - alive
-          - apl
+          # - alive
+          # - apl
           - autoconf
           - autogen
           - automake
-          - barcode
+          # - barcode
           - bash
-          - bc
+          # - bc
           - binutils
-          - bison
-          - chess
-          - clisp
+          # - bison
+          # - chess
+          # - clisp
           - coreutils
-          - cpio
-          - ddrescue
+          # - cpio
+          # - ddrescue
           - diffutils
-          - direvent
-          - ed
-          - emacs
-          - fdisk
+          # - direvent
+          # - ed
+          # - emacs
+          # - fdisk
           - findutils
           - fontutils
           - gawk
           - gcc
           - gdb
           - gettext
-          - gforth
-          - gift
+          # - gforth
+          # - gift
           - gimp
-          - gmp
-          - gorm
-          - gpaint
-          - gperf
-          - grep
-          - grub
-          - guile
+          # - gmp
+          # - gorm
+          # - gpaint
+          # - gperf
+          # - grep
+          # - grub
+          # - guile
           - gzip
           - hello
-          - icecat
-          - idutils
-          - inetutils
-          - m4
-          - mailutils
+          # - icecat
+          # - idutils
+          # - inetutils
+          # - m4
+          # - mailutils
           - make
           - mes
-          - mtools
-          - nano
+          # - mtools
+          # - nano
           - parallel
-          - parted
-          - pascal
-          - patch
-          - paxutils
-          - plotutils
-          - r
-          - recutils
-          - screen
+          # - parted
+          # - pascal
+          # - patch
+          # - paxutils
+          # - plotutils
+          # - r
+          # - recutils
+          # - screen
           - sed
-          - sharutils
-          - smalltalk
-          - sysutils
+          # - sharutils
+          # - smalltalk
+          # - sysutils
           - tar
-          - termutils
-          - texinfo
+          # - termutils
+          # - texinfo
           - time
           - wget
           - which
