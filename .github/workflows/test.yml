@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  test:
+  test_gnu:
     runs-on: ubuntu-latest
     continue-on-error: true
 
