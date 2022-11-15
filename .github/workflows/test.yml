@@ -47,10 +47,6 @@ jobs:
       - run: zig version
       - run: zig cc --version
       - run: zig env
-
-      - uses: nektro/actions-setup-zigmod@v1
-      - run: zigmod version
-      - run: zigmod ci
       - run: zig build
 
       # System dependencies
