@@ -113,7 +113,7 @@ jobs:
       # Actual GNU project to test building
       - run: git clone https://git.savannah.gnu.org/git/${{ matrix.project }}.git
       - run: |
-          cd {{ matrix.project }}
+          cd ${{ matrix.project }}
           mkdir out
           chmod +x ./bootstrap && ./bootstrap
           ./configure
