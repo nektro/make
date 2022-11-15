@@ -21,7 +21,6 @@ jobs:
           - hello
           - make
           - sed
-          - wget
 
     steps:
       # debug info about this machine
