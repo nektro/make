@@ -58,6 +58,12 @@ jobs:
       - run: zigmod ci
       - run: zig build
 
+      # System dependencies
+      - run: sudo apt install -y perl
+      - run: sudo apt install -y autopoint
+      - run: sudo apt install -y gperf
+      - run: sudo apt install -y help2man
+
       # Actual GNU project to test building
       - run: git clone https://git.savannah.gnu.org/git/${{ matrix.project }}.git
       - run: |
