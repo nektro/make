@@ -14,7 +14,6 @@ jobs:
         project:
           - automake
           - bash
-          - coreutils
           - diffutils
           - findutils
           - gzip
